@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://pngimg.com/d/nail_polish_PNG60.png');
+ 
+  background-size: cover;
+  background-attachment: fixed;
+background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.links{
+
+margin-top:15%;
+}
+
+.facebook{
+  margin:40px;
+color: blue;
+font-size: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+.instagram{
+  margin-left:40px;
+  color:red;
+  font-size: 40px;
+}
+
+.instagram img{
+  width: 35px; /* Set the width of the image */
+  height: 35px; /* Set the height of the image */
+border-radius: 5px;
+margin-top:0px;
+margin-right:10px;
+}
+
+
+
+
+.number img{
+
+  width:35px;
+  height:35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.number{
+  color: rgba(0, 202, 0, 0.803);
+  margin:40px;
+  font-size: 40px;
+}
+
